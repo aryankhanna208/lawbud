@@ -1,5 +1,4 @@
 import os
-import pathlib
 
 __import__('pysqlite3')
 import sys
