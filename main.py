@@ -33,7 +33,7 @@ def init():
     st.session_state.documents = load_documents()
     
     st.session_state.embeddings = AzureOpenAIEmbeddings(
-        azure_deployment="lala",
+        azure_deployment="text-embedding-ada-002",
         openai_api_version="2024-03-01-preview",
     )
 
